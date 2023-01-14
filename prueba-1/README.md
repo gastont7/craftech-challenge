@@ -9,7 +9,7 @@ Esta ***three tier architecture*** incluye un nivel de presentación (capa web p
 
 ## Los beneficios de esta infraestructura son:
 
-- **escalabilidad**: cada elemento se puede escalar horizontalmente, ya que cada instancia EC2 puede desplegar las aplicaciones.
+- **escalabilidad**: cada elemento se puede escalar vertical y horizontalmente (dependiendo de la necesidad y uso), ya que en cada instancia EC2 puede desplegar las aplicaciones.
 
 - **integridad y seguridad de la base de datos**: el cliente no puede acceder directamente a los datos, sin una capa de aplicación entre ellos y la base de datos.
 
@@ -17,5 +17,6 @@ Esta ***three tier architecture*** incluye un nivel de presentación (capa web p
 
 - **fácilidad de mantener y modificar**: las modificaciones o el reemplazo de un nivel no afectan a los otros niveles (desacoplamiento), varios desarrolladores pueden trabajar en las diferentes capas, lo que reduce el costo y el tiempo necesarios para integrar los cambios.
 
+#### nota: se adjunta el file del diagrama realizado en draw.io, para poder visualizarlo mejor desde la url online https://app.diagrams.net/
 
 ![infraestructura](image.jpg)
