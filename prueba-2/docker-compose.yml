@@ -3,7 +3,7 @@ version: '3.5'
 services:
   react-frontend:
     #build:
-    #  context: /home/mauro/craftech-docker/devops-challenge/frontend
+    #  context: ~/craftech-docker/devops-challenge/frontend
     #  dockerfile: Dockerfile
     image: gat77/craftech-react:1.0
     #container_name: craftech/react 
@@ -27,7 +27,7 @@ services:
 
   django-backend:
     #build:
-    #  context: /home/mauro/craftech-docker/devops-challenge/backend
+    #  context: ~/craftech-docker/devops-challenge/backend
     #  dockerfile: Dockerfile
     image: gat77/craftech-django:1.0
     #container_name: craftech/django
