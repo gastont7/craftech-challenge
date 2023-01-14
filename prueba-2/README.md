@@ -38,7 +38,7 @@ pip3 install virtualenv
 
 ## como levantar projecto react.js en ubuntu:
 
-Para levantar un proyecto React en Ubuntu, primero necesitas tener instalado Node.js y npm (gestor de paquetes de Node.js) en tu sistema. Puedes verificar si ya tienes estas herramientas instaladas ejecutando los siguientes comandos en la terminal:
+Para levantar un proyecto React en Ubuntu, primero necesitas tener instalado `Node.js y npm` (gestor de paquetes de Node.js) en tu sistema. Puedes verificar si ya tienes estas herramientas instaladas ejecutando los siguientes comandos en la terminal:
 
 ```
 node -v
@@ -118,12 +118,13 @@ e. Exponer el puerto 8000 (o el que se esté utilizando) para que pueda ser acce
 f. Ejecutar los comandos necesarios para iniciar el servidor de Django,"python manage.py runserver 0.0.0.0:8000"
 g. construimos la imagen a partir del Dockerfile
 
-docker build -t craftech/docker-django .
+`docker build -t craftech/docker-django .`
 
 h. a partir de la imagen creada, vamos a construir el container
 
-docker run “id imagen o name”
-docker run -p 8008:8000 “id imagen o name”
+`docker run “id imagen o name”`
+o tambien
+`docker run -p 8008:8000 “id imagen o name”`
 
 
 Nota: se actualiza librerias y comentan algunas, en requirements.txt. se trobleshootean varios errores. 
@@ -136,15 +137,16 @@ b. se utilizo como imagen base "node:18-buster-slim" y se crea el directorio de 
 c. Copiar el archivo "package.json" del proyecto al contenedor y ejecutar "npm install" para instalar las dependencias necesarias.
 d. Copiar el resto de los archivos del proyecto al contenedor.
 e. Exponer el puerto 3000 (o el que se esté utilizando) para que pueda ser accesible desde el exterior.
-f. Ejecutar el comando necesario para iniciar la aplicación, por ejemplo "npm start" o "yarn start"
+f. Ejecutar el comando necesario para iniciar la aplicación, por ejemplo `"npm start"` o `"yarn start"`
 g. construimos la imagen a partir del Dockerfile
 
-docker build -t craftech/docker-react .
+`docker build -t craftech/docker-react .`
 
 h. a partir de la imagen creada, vamos a construir el container
 
-docker run “id o name imagen”
-docker run -p 8008:8000 “id o name imagen”
+`docker run “id o name imagen”`
+o tambien
+`docker run -p 8008:8000 “id o name imagen”`
 
 
 ---
