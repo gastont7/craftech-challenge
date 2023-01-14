@@ -33,7 +33,7 @@ pip3 install virtualenv
 
 `pyhton manage.py runserver 0.0.0.0:8000`
 
-Ahora tu proyecto estará corriendo en el localhost:8000, Puedes abrirlo en un navegador.
+### Ahora tu proyecto estará corriendo en el localhost:8000, Puedes abrirlo en un navegador.
 --- 
 
 ## como levantar projecto react.js en ubuntu:
@@ -71,7 +71,7 @@ Para iniciar el servidor de desarrollo y ver tu aplicación React en el navegado
 
 `npm start`
 
-Ahora tu proyecto estará corriendo en el localhost:3000, Puedes abrirlo en un navegador.
+ Ahora tu proyecto estará corriendo en el localhost:3000, Puedes abrirlo en un navegador.
 
 ### Nota: Tambien es posible usar yarn, que es otro administrador de paquetes, en lugar de npm, como sigue a continuacion:
 
@@ -83,12 +83,13 @@ yarn -v
 ```
 - Si no tienes Node.js o Yarn instalados, puedes instalarlos siguiendo las instrucciones en los sitios web oficiales:
 
-Node.js: https://nodejs.org/en/download/package-manager/
-Yarn: https://classic.yarnpkg.com/en/docs/install
+(see [docs for `Node.js`](https://nodejs.org/en/download/package-manager/))
+
+(see [docs for `Yarn`](https://classic.yarnpkg.com/en/docs/install))
+
 https://phoenixnap.com/kb/how-to-install-yarn-ubuntu
 
 - Una vez que tengas Node.js y Yarn instalados, Ubicarse en el proyecto frontend:
-
 
 ```
 Cd /path to directory/
