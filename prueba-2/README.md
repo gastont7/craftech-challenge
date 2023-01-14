@@ -150,5 +150,16 @@ docker run -p 8008:8000 “id o name imagen”
 ---
 # Documentacion para levantar proyecto en AWS
 ---
+- primero levantar la insfraestructura deseada en AWS; para un caso simple levantar una instancia EC2 con una ip publica, atachada a una vpc y un security group con los puertos 22, 80 es escucha. 
 
+- conectarse via ssh a la instancia.
 
+- instalar git, docker y docker-compose y configurarlos en la instancia.
+
+- clonar el repo del proyecto.
+
+- ejecutar los pasos para levantar los container con los servicios.
+
+- configurar las tablas de ruteo para exponer el servicio al exterior. 
+
+nota: este es el ejemplo para un caso simple de laboratorio. 
